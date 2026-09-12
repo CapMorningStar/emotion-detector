@@ -21,21 +21,21 @@ Visitors and recruiters can see the real-time detection in action below without 
 Real-time face tracking with confidence estimation and a dynamic probability distribution bar chart overlay.
 
 <p align="center">
-  <img src="assets/demo_happy.png" alt="Single Face Emotion Detection - Happy" width="85%">
+  <img src="assets/demo_happy_hud.png" alt="Single Face Emotion Detection - Happy" width="85%">
 </p>
 
 ### 2. Multi-Face Simultaneous Emotion Tracking
 Robust multi-subject localization classifying disparate emotions simultaneously in real time (collaborative testing with May Thet Nwe Tun).
 
 <p align="center">
-  <img src="assets/demo_multi_face.png" alt="Multi-Face Real-Time Emotion Detection" width="85%">
+  <img src="assets/demo_multiface_tracking.png" alt="Multi-Face Real-Time Emotion Detection" width="85%">
 </p>
 
-### 3. Dynamic Emotional Transition Analysis
+### 3. Dynamic Emotional Transition Analysis (Surprise Reaction)
 Instantaneous sensitivity capturing rapid emotional shifts and facial micro-expressions.
 
 <p align="center">
-  <img src="assets/demo_surprise.png" alt="Dynamic Facial Emotion Tracking - Surprise" width="85%">
+  <img src="assets/demo_surprise_reaction.png" alt="Dynamic Facial Emotion Tracking - Surprise" width="85%">
 </p>
 
 ---
@@ -86,14 +86,14 @@ The system executes a seamless, modular 5-stage inference pipeline at 30+ FPS:
 ```bash
 emotion-detector/
 ├── assets/
-│   ├── demo_happy.png         # Demo: Single face emotion + HUD bar chart
-│   ├── demo_multi_face.png    # Demo: Multi-face concurrent detection
-│   └── demo_surprise.png      # Demo: Dynamic surprise expression
-├── model.py                   # Mini-XCEPTION architecture definition
-├── emotion_detector.py        # Main real-time webcam inference script
-├── download_model.py          # Pretrained weights downloader (~26MB)
-├── requirements.txt           # Python dependencies
-└── README.md                  # Project documentation & demo showcase
+│   ├── demo_happy_hud.png           # Demo: Single face emotion + HUD bar chart
+│   ├── demo_multiface_tracking.png  # Demo: Multi-face concurrent detection
+│   └── demo_surprise_reaction.png   # Demo: Dynamic surprise expression
+├── model.py                         # Mini-XCEPTION architecture definition
+├── emotion_detector.py              # Main real-time webcam inference script
+├── download_model.py                # Pretrained weights downloader (~26MB)
+├── requirements.txt                 # Python dependencies
+└── README.md                        # Project documentation & demo showcase
 ```
 
 ---
